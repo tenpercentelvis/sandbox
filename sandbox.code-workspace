@@ -1,0 +1,27 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        // Exclude from editor
+        "files.exclude": {
+            "**/node_modules": false
+        },
+        // Exclude from search
+        "search.exclude": {},
+        // Linting
+        "javascript.validate.enable": true,
+        // Prettier
+        "prettier.eslintIntegration": true,
+        // Formatting
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        // Trim on save
+        "files.trimTrailingWhitespace": true,
+        // Git
+        "git.enabled": true
+    }
+}

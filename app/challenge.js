@@ -48,4 +48,6 @@ sliced = sorted.slice(0, 3); //?
 
 let reduced = sliced.map(item => item.name); //?
 
-console.log(reduced);
+console.log(reduced);//?
+
+console.log(reduced);//?

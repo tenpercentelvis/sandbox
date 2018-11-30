@@ -46,8 +46,6 @@ sliced = sorted.slice(0, 3); //?
 
 // map over sliced array returning only name
 
-reduced = sliced.map(item => item.name); //?
+let reduced = sliced.map(item => item.name); //?
 
-// result
-
-reduced; //?
+console.log(reduced);

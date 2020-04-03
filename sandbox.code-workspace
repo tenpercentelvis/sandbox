@@ -13,8 +13,6 @@
         "search.exclude": {},
         // Linting
         "javascript.validate.enable": true,
-        // Prettier
-        "prettier.eslintIntegration": true,
         // Formatting
         "editor.tabSize": 4,
         "editor.insertSpaces": true,

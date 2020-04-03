@@ -17,10 +17,20 @@
     // }
 
     "qoukka": {
-        "scope": "javascript,typescript",
+        "scope": "javascript",
         "prefix": "q",
-        "body": ["//?"],
+        "body": [" //?"],
         "description": "Qoukka"
+    },
+
+    "Array method": {
+        "prefix": "arr",
+        "body": [
+            "${1|map,filter,find,reduce,some|}((${2:item}) => {",
+            "  console.log(item);",
+            "})"
+        ],
+        "description": "Array method"
     }
 
     /*?*/

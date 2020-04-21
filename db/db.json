@@ -1,0 +1,37 @@
+{
+    "users": [
+        {
+            "email": "member@member.com",
+            "password": "password",
+            "role": "ADMIN",
+            "verified": false,
+            "avatar": "http",
+            "createdAt": 1571213104370,
+            "id": "1"
+        }
+    ],
+    "authors": [
+        {
+            "id": "1",
+            "name": "Author 1"
+        },
+        {
+            "id": "2",
+            "name": "Author 2"
+        }
+    ],
+    "articles": [
+        {
+            "id": "1",
+            "title": "Article 1",
+            "keyWords": ["yoga", "thailand"]
+        },
+        {
+            "id": "2",
+            "title": "Article 2",
+            "author": "2",
+            "keyWords": ["yoga", "thailand"]
+        }
+    ],
+    "settings": []
+}
